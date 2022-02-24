@@ -5,8 +5,7 @@
 This Helm chart is a lightweight way to configure and run our official
 [Elasticsearch Docker image][].
 
-<!-- development warning placeholder -->
-**Warning**: This branch is used for development, please use the latest [7.x][] release for released version.
+
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -57,21 +56,19 @@ See [supported configurations][] for more details.
 
 ### Install released version using Helm repository
 
-* Add the Elastic Helm charts repo:
-`helm repo add elastic https://helm.elastic.co`
+* Add the Odysseycloud Helm charts repo:
+`helm repo add odysseycloud https://odysseycloud.github.io/oc-charts`
 
 * Install it:
-  - with Helm 3: `helm install elasticsearch elastic/elasticsearch`
-  - with Helm 2 (deprecated): `helm install --name elasticsearch elastic/elasticsearch`
+  - with Helm 3: `helm install elasticsearch odysseycloud/elasticsearch`
+  - with Helm 2 (deprecated): `helm install --name elasticsearch odysseycloud/elasticsearch`
 
 
-### Install development version using main branch
-
-* Clone the git repo: `git clone git@github.com:elastic/helm-charts.git`
+* Clone the git repo: `git clone git@github.com:odysseycloud/oc-charts.git`
 
 * Install it:
-  - with Helm 3: `helm install elasticsearch ./helm-charts/elasticsearch --set imageTag=8.0.0-SNAPSHOT`
-  - with Helm 2 (deprecated): `helm install --name elasticsearch ./helm-charts/elasticsearch --set imageTag=8.0.0-SNAPSHOT`
+  - with Helm 3: `helm install elasticsearch ./charts/elasticsearch --set imageTag=8.0.0`
+  - with Helm 2 (deprecated): `helm install --name elasticsearch ./charts/elasticsearch --set imageTag=8.0.0`
 
 
 ## Upgrading
@@ -408,8 +405,7 @@ lifecycle:
 Please check [CONTRIBUTING.md][] before any contribution or for any questions
 about our development and testing process.
 
-[7.x]: https://github.com/elastic/helm-charts/releases
-[#63]: https://github.com/elastic/helm-charts/issues/63
+[8.x]: https://github.com/odysseycloud/oc-charts/releases
 [#1186 (comment)]: https://github.com/elastic/helm-charts/pull/1186#discussion_r631166442
 [7.9.2]: https://github.com/elastic/helm-charts/blob/7.9.2/elasticsearch/README.md
 [BREAKING_CHANGES.md]: https://github.com/elastic/helm-charts/blob/main/BREAKING_CHANGES.md
