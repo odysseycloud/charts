@@ -2,12 +2,12 @@ apiVersion: v1
 description: Elasticsearch is a distributed search and analytics engine. It is used for web search, log monitoring, and real-time analytics. Ideal for Big Data applications.
 home: https://github.com/odysseycloud/oc-charts/tree/master/elasticsearch
 maintainers:
-- email: admin@odysseycloud.io
-  name: OdysseyCloud
-- email: brad@odysseycloud.io
-  name: Brad McCoy
-- email: amit@odysseycloud.io
-  name: Amit Dsouza    
+- name: OdysseyCloud Admin
+  email: admin@odysseycloud.io
+- name: Brad McCoy
+  email: brad@odysseycloud.io
+- name: Amit Dsouza
+  email: amit@odysseycloud.io
 version: 1.0.0
 appVersion: 8.0.0
 engine: gotpl
