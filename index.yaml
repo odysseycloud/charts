@@ -23,4 +23,26 @@ entries:
     urls:
     - https://github.com/odysseycloud/oc-charts/releases/download/elasticsearch-1.0.0/elasticsearch-1.0.0.tgz
     version: 1.0.0
-generated: "2022-02-24T08:31:12.146747517Z"
+  - apiVersion: v1
+    appVersion: 8.0.0
+    created: "2022-02-24T08:59:06.205823179Z"
+    description: Elasticsearch is a distributed search and analytics engine. It is
+      used for web search, log monitoring, and real-time analytics. Ideal for Big
+      Data applications.
+    digest: 28f2020de09dcfe224806253238463d14f7899ae459b2afe584556de44f4ef70
+    home: https://github.com/odysseycloud/oc-charts/tree/master/elasticsearch
+    icon: https://github.com/odysseycloud/oc-charts/tree/master/img/oc-logo.png
+    maintainers:
+    - email: admin@odysseycloud.io
+      name: OdysseyCloud Admin
+    - email: brad@odysseycloud.io
+      name: Brad McCoy
+    - email: amit@odysseycloud.io
+      name: Amit Dsouza
+    name: elasticsearch
+    sources:
+    - https://github.com/elastic/elasticsearch
+    urls:
+    - https://github.com/odysseycloud/oc-charts/releases/download/elasticsearch-0.1.0/elasticsearch-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-24T08:59:06.205836779Z"
