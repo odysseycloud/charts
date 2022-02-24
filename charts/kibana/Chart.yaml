@@ -1,0 +1,18 @@
+apiVersion: v1
+description: Kibana is an open source, browser based analytics and search dashboard for Elasticsearch. Kibana strives to be easy to get started with, while also being flexible and powerful.
+home: https://github.com/odysseycloud/oc-charts/tree/master/kibana
+maintainers:
+- name: OdysseyCloud Admin
+  email: admin@odysseycloud.io
+- name: Brad McCoy
+  email: brad@odysseycloud.io
+- name: Amit Dsouza
+  email: amit@odysseycloud.io
+name: kibana
+version: 1.0.1
+appVersion: 8.0.0
+engine: gotpl
+icon: https://github.com/odysseycloud/oc-charts/tree/master/img/oc-logo.png
+sources:
+  - https://github.com/elastic/kibana
+
